@@ -1,0 +1,15 @@
+{
+  "name": "fogato",
+  "version": "0.1.0",
+  "description": "Fogato – gatinho que te mantém focada",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": { "appId": "app.fogato", "productName": "Fogato", "win": { "target": "nsis" } }
+}
